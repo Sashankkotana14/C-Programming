@@ -1,0 +1,14 @@
+//area of circle//
+#include<stdio.h>
+int main()
+{	float pi=3.14,area,r;
+	printf("enter the r value");
+  scanf("%f",&r);
+	area=(3.14*r*r); 
+	printf("area=%f",area);
+	return 0;
+}
+
+OUTPUT:enter the r value
+4
+area=50.240002
