@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+	int s1,s2,s3,s4,s5,sum;
+	float average;
+	printf("enter the values of s1,s2,s3,s4,s5");
+	scanf("%d%d%d%d%d",&s1,&s2,&s3,&s4,&s5);
+	sum=(s1+s2+s3+s4+s5);
+	printf("sum=%d",sum);
+	printf("%f",&average);
+	average=(s1+s2+s3+s4+s5)/5;
+	printf("average=%f",average);
+	return 0;
+}
+
+output:enter the values of s1,s2,s3,s4,s5
+1 2 3 4 5
+sum=150.000000average=3.000000
