@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int x;
+	printf("enter x value");
+	scanf("%d",&x);
+	printf(x%2==0? ("even"):"odd");
+	return 0;
+}
+
+output:enter x value
+10
+even
