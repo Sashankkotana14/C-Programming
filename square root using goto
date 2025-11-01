@@ -1,0 +1,17 @@
+#include<stdio.h>
+ int main()
+ {
+ 	int n,s;
+ 	hi:
+ 		printf("enter n value");
+ 		scanf("%d",&n);
+ 		if(n<0)
+ 		goto hi;
+ 		s=(sqrt(n));
+ 		printf("sqrt root=%d",s);
+ 		return 0;
+ 		
+ }
+output:enter n value
+4
+sqrt root=2
