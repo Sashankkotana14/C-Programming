@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+	int r;
+	printf("enter r value");
+	scanf("%d",&r);
+	if((r%4==0)&&(r%100==0)||(r%400==0));
+	{
+	printf("%d = leap year", r);
+	}
+	else
+	{
+	printf("%d =not a leap year",r);
+	}
+	return 0;
+}
+output:enter r value
+287
+287 =not a leap year
