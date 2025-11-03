@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	int n,i=1;
+	printf("enter n value");
+	scanf("%d",&n);
+	for(i=1;i<=n;i++)
+	{
+		printf("%d",i);
+		if(i==3)
+		break;
+	}
+	return 0;
+}
+output:enter n value
+5
+1 2 3
