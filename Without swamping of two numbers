@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+	int a,b;
+    printf("enter a,b values");
+	scanf("%d%d",&a,&b)	;
+	printf("\n before swap a=%d,b=%d",a,b);
+	a=a+b;
+	b=a-b;
+	a=a-b;
+	printf("\n after swap a=%d,b=%d",a,b);
+	return 0;
+}
+output:enter a,b values
+10 20
+
+ before swap a=10,b=20
+ after swap a=20,b=10
