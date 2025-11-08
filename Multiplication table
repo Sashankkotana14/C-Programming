@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+	int n,s,i;
+	printf("enter n value");
+	scanf("%d",&n);
+	printf("enter table size");
+	scanf("%d",&s);
+	for(i=1;i<=s;i++)
+	{
+		printf("%d*%d=%d\n",i,n,i*n);
+		return 0;
+	}
+}
+output:enter n value
+1
+enter table size
+1
+1*1=1
