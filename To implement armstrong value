@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+	int n,sum=0,d,c,temp;
+	printf("enter n value");
+	scanf("%d",&n);
+	temp=n;
+	while(n>0)
+	{
+		d=n%10;
+		c=d*d*d;
+		sum=sum+c;
+		n=n/10;
+		
+	}
+	if(temp=sum)
+	printf("it is a armstrong");
+	else
+	printf("it is not a armstrong");
+	return 0;
+}
+output:enter n value
+123
+it is a armstrong
