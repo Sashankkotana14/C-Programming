@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+	int x,y,AND,OR;
+	printf("enter x,y values");
+	scanf("%d%d",&x,&y);
+	
+	AND=x&y;
+	printf("AND=%d\n",AND);
+	OR=x|y;
+	printf("OR=%d",OR);
+	return 0;
+}
+output:enter x,y values
+      2
+      3
+     AND=2
+     OR=3
