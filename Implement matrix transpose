@@ -1,0 +1,35 @@
+#include<stdio.h>
+int main()
+{
+	int A[10][10],i,j,r,c;
+	printf("Enter A  matrix row & columns sizes");
+	scanf("%d%d",&r,&c);
+	printf("Enter A matrix value");
+	for(i=0;i<r;i++)
+	{
+		for(j=0;j<c;j++)
+		{
+			scanf("%d",&A[i][j]);
+		}
+	}
+	printf("Transpose matrix is : \n");
+	for(i=0;i<r;i++)
+	{
+		for(j=0;j<c;j++)
+		{
+			printf("%d",A[j][i]);
+		}
+	}
+	printf("\n");
+	return 0;
+}
+output:Enter A  matrix row & columns sizes
+2
+2
+Enter A matrix value
+2
+2
+2
+2
+Transpose matrix is :
+2222
