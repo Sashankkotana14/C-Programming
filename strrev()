@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	char s[20];
+	printf("Enter string name");
+	gets(s);
+	printf("Reverse string is = %s",strrev(s));
+	return 0;
+}
+output:Enter string name aiml
+Reverse string is = lmia
