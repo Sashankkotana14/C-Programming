@@ -1,0 +1,14 @@
+int sum();
+int main()
+{
+	int z;
+	z=sum();
+	printf("sum = %d",z);
+	return 0;
+}
+int sum()
+{
+	int a=90,b=30;
+	return(a+b);
+}
+output:sum = 120
