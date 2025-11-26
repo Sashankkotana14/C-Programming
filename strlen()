@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	char s[20];
+	int l;
+	printf("Enter string name");
+	scanf("%d",&s);
+	l=strlen(s);
+	printf("length of string=%d",l);
+	return 0;
+}
+output:Enter string name
+sai
+length of string=3
