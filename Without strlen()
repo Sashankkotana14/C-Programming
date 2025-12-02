@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	char s[20];
+	int i,l;
+	printf("Enter string name");
+	gets(s);
+	for(i=0;s[i]!='\0';i++);
+	l=i;
+	printf("Length of string = %d",l);
+	return 0;
+}
+output:Enter string nameAIML
+Length of string = 4
