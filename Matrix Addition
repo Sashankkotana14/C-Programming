@@ -1,0 +1,57 @@
+#include<stdio.h>
+int main()
+{
+	int A[10][10],B[10][10],C[10][10],r1,c1,i,j;
+	printf("Enter rows and column sizes");
+	scanf("%d%d",&r1,&c1);
+	printf("Enter a matrix values");
+	for(i=0;i<r1;i++)
+	{
+		for(j=0;j<c1;j++)
+		{
+			scanf("%d",&A[i][j]);
+		}
+	}
+	printf("Enter b matrix values");
+	for(i=0;i<r1;i++)
+	{
+		for(j=0;j<c1;j++)
+		{
+		scanf("%d%d",&B[i][j]);
+		}
+	}
+	for(i=0;i<r1;i++)
+	{
+		for(j=0;j<c1;j++)
+		{
+			C[i][j]=A[i][j]+B[i][j];
+		}
+	}
+	printf("Reslt matrix is \n");
+	for(i=0;i<r1;i++)
+	{
+		for(j=0;j<c1;j++)
+		{
+			printf("%d",C[i][j]);
+		}
+	}
+	return 0;
+}
+output:Enter rows and column sizes
+2
+2
+Enter a matrix values
+2
+2
+2
+2
+Enter b matrix values
+2
+2
+2
+2
+Result matrix is
+8
+8
+8
+8
