@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,c;
+	char ch;
+	printf("Enter a,b values");
+	scanf("%d%d",&a,&b);
+	printf("Enter your choice +=add,-=sub,*=mult,/=div");
+	scanf(" %c",&ch);
+	switch(ch)
+	{
+		case '+': c=a+b;
+		printf("add=%d",c);
+		break;
+		case '-': c=a-b;
+		printf("sub=%d",c);
+		break;
+		case '*': c=a*b;
+		printf("mult=%d",c);
+		break;
+		case '/': c=a/b;
+		printf("div=%d",c);
+		break;
+		default : printf("Invalid choice");
+		 
+	}
+	return 0;
+}
+output:Enter a,b values
+10 20
+Enter your choice +=add,-=sub,*=mult,/=div
++
+add=30
