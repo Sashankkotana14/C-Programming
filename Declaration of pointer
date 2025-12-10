@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int a=10,*p;
+	p=&a;
+	printf("Value of a=%d",a);
+	printf("\n Address of a=%u",p);
+	printf("\n Address of p=%u",&p);
+	printf("\n Address of p=%d",*p);
+	return 0;
+}
+output:Value of a=10
+ Address of a=6487628
+ Address of p=6487616
+ Address of p=10
