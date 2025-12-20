@@ -1,0 +1,15 @@
+
+#include<stdio.h>
+int main()
+{
+	int h,b, area;
+	printf("enter h,b values");
+	scanf("%d%d",&h,&b);
+	area=(0.5*h*b);
+	printf("area=%d",area);
+	return 0;
+}
+
+
+enter h,b values 9 4
+area=18
