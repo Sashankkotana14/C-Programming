@@ -1,0 +1,23 @@
+void swap(int,int);
+int main()
+{
+	int a,b;
+	printf("Enter a,b values");
+	scanf("%d%d",&a,&b);
+	printf("Before swap a=%d b=%d",a,b);
+	swap(a,b);
+	return 0;
+}
+void swap(int x,int y)
+{
+	int temp;
+	temp=x;
+	x=y;
+	y=temp;
+	printf("\n after swap a=%d b=%d",x,y);
+}
+output:Enter a,b values
+2
+3
+Before swap a=2 b=3
+ after swap a=3 b=2
