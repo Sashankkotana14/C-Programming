@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int s, area;
+	printf("enter s values");
+	scanf("%d",&s);
+	area=(s*s);
+	printf("area=%d",area);
+	return 0;
+}
+
+OUTPUT:
+enter s value 8
+  64
