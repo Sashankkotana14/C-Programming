@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	
+	printf("HELLO ALL");
+	return 0;
+}
+
+OUTPUT:
+HELLO ALL
